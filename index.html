@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Mamadise | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="nav">
+    <span class="nav-logo">MM // PORTFOLIO</span>
+    <ul id="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="menu-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+    </button>
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+    <div class="hero-inner">
+        <span class="hero-tag">CPUT · Computer Engineering</span>
+        <h1 class="hero-name">Martin <span>Mamadise</span></h1>
+        <p class="hero-sub">BEng Tech Honours · Embedded Systems · Software Development · IoT</p>
+        <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <span class="section-label">// 01 — ABOUT</span>
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>I am a dedicated Bachelor of Engineering Technology in Computer Engineering graduate at Cape Peninsula University of Technology, with distinctions in core modules.</p>
+                <p>Currently advancing through BEng Tech Honours in Computer Engineering, I'm passionate about embedded systems, electronics, and software development.</p>
+                <p>My goal is to contribute to South Africa's engineering and technology innovation landscape and pursue postgraduate studies in advanced computing or embedded intelligence.</p>
+                <a href="#contact" class="btn btn-primary" style="margin-top:12px">Let's Connect</a>
+            </div>
+            <div class="stats-grid reveal">
+                <div class="stat-card">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">YEARS STUDY</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">SKILLS AREAS</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">PROJECTS</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">A+</span>
+                    <span class="stat-label">DISTINCTIONS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <div class="container">
+        <span class="section-label">// 02 — SKILLS</span>
+        <h2 class="section-title reveal">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <span class="skill-icon">🔧</span>
+                <div class="skill-name">Embedded Systems</div>
+                <div class="skill-desc">Arduino, sensors, microcontrollers, IoT devices and automation</div>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-w="88"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">💻</span>
+                <div class="skill-name">Software Development</div>
+                <div class="skill-desc">Java, Python, C++ — algorithm design and OOP</div>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-w="82"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">🌐</span>
+                <div class="skill-name">Web Development</div>
+                <div class="skill-desc">HTML, CSS, JavaScript — responsive and interactive UIs</div>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-w="75"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">🗄️</span>
+                <div class="skill-name">Database Management</div>
+                <div class="skill-desc">SQL, relational database design and query optimisation</div>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-w="70"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">📡</span>
+                <div class="skill-name">Networking & IoT</div>
+                <div class="skill-desc">Network protocols, IoT architecture, digital electronics</div>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-w="78"></div></div>
+            </div>
+            <div class="skill-card reveal">
+                <span class="skill-icon">🧠</span>
+                <div class="skill-name">Signal Processing</div>
+                <div class="skill-desc">Intelligent systems, signal analysis and engineering design</div>
+                <div class="skill-bar-wrap"><div class="skill-bar" data-w="72"></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <div class="container">
+        <span class="section-label">// 03 — PROJECTS</span>
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-num">PROJECT_01</div>
+                <h3>Smart Agriculture Monitoring System</h3>
+                <p>A system that monitors soil moisture, ambient light, and water levels in real time using Arduino and various sensors to optimise irrigation and crop health.</p>
+                <div class="project-tags">
+                    <span class="tag">ARDUINO</span>
+                    <span class="tag">SENSORS</span>
+                    <span class="tag">IOT</span>
+                    <span class="tag">C++</span>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-num">PROJECT_02</div>
+                <h3>Solar-Powered Washing Machine Controller</h3>
+                <p>Embedded system to control a solar-powered washing machine with energy efficiency features, load management, and automated cycle control.</p>
+                <div class="project-tags">
+                    <span class="tag">EMBEDDED</span>
+                    <span class="tag">SOLAR</span>
+                    <span class="tag">MICROCONTROLLER</span>
+                    <span class="tag">ENERGY</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <div class="container">
+        <span class="section-label">// 04 — CONTACT</span>
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info reveal">
+                <p>Open to internships, graduate roles, and collaboration on engineering or software projects. Feel free to reach out!</p>
+                <a href="mailto:martinmamadise80@gmail.com" class="contact-item">
+                    <span class="contact-item-icon">✉️</span>
+                    <div class="contact-item-text">
+                        <small>EMAIL</small>
+                        martinmamadise80@gmail.com
+                    </div>
+                </a>
+                <a href="tel:+27727119578" class="contact-item">
+                    <span class="contact-item-icon">📞</span>
+                    <div class="contact-item-text">
+                        <small>PHONE</small>
+                        072 711 9578
+                    </div>
+                </a>
+                <a href="#" class="contact-item">
+                    <span class="contact-item-icon">📍</span>
+                    <div class="contact-item-text">
+                        <small>LOCATION</small>
+                        Cape Town, South Africa
+                    </div>
+                </a>
+                <div class="social-row">
+                    <a href="#" class="social-btn">LinkedIn ↗</a>
+                    <a href="#" class="social-btn">GitHub ↗</a>
+                    <a href="#" class="social-btn">CV PDF ↗</a>
+                </div>
+            </div>
+            <div class="reveal">
+                <form class="contact-form" id="contact-form" novalidate>
+                    <input type="text"  id="f-name"    placeholder="Your Name"    required>
+                    <input type="email" id="f-email"   placeholder="Your Email"   required>
+                    <input type="text"  id="f-subject" placeholder="Subject">
+                    <textarea           id="f-message" placeholder="Your message..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Martin Mokotlana Mamadise · Built with HTML, CSS &amp; JS</p>
+</footer>
+
+<!-- Scroll to top button -->
+<button id="top-btn" title="Back to top">↑</button>
+
+<!-- JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
